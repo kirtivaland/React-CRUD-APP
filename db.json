@@ -5,6 +5,30 @@
         "title": "Hello World!",
         "description": "This is test blog for my react app",
         "author": "Kirti Valand"
+      },
+      {
+        "id": 2,
+        "author": "Benjamin Powers",
+        "title": "Wasabi Wallet 2.0 Will Offer Automatic CoinJoins by Default to Boost Privacy",
+        "description": "One of the main Wasabi Wallet 2.0 improvements is not just to the CoinJoin design through WabiSabi, but also its usability. We could see it debut in about nine months."
+      },
+      {
+        "id": 3,
+        "author": "Aayush Jindal",
+        "title": "TA: Bitcoin Jumps To New 2020 High, US Election Results Could Spark Rally To $15K",
+        "description": "Bitcoin price is rising steadily and it even broke the $14,000 resistance against the US Dollar. BTC is showing positive signs and it seems like US election results might trigger swing moves. Bitcoin remained in a positive zone and it climbed above the $14,00…"
+      },
+      {
+        "id": 4,
+        "author": "Jonathan Ping",
+        "title": "MMB Portfolio Asset Allocation Update, November 2020",
+        "description": "I support the idea of skin in the game, and I wish more “experts” would simply share what they actually own. Here’s my current portfolio update as of November 2020, including all of our 401k/403b/IRAs, taxable brokerage accounts, and savings bonds but excludi…"
+      },
+      {
+        "id": 5,
+        "author": "Nick Chong",
+        "title": "Wall Street Veteran Mike Novogratz Says Bitcoin Is In a Bull Market",
+        "description": "Bitcoin has seen a rapid rally over the past few weeks after falling as low as $9,800. Bulls rapidly bid that bottom as the market printed sub-five digit prices for the first time in many weeks. The cryptocurrency now trades at $14,300, even in the face of be…"
       }
     ],
     "profile": {
