@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Container, Row } from 'react-bootstrap';
+import Content from '../../components/content/content.component';
 
 import BlogList from '../../components/blog-list/blog-list.component';
 import {SearchBox} from '../../components/search-box/search-box.component';
@@ -30,17 +30,13 @@ class BlogPage extends Component {
             blog.title.toLowerCase().includes(searchField.toLowerCase())
           )
         return (
-            <section className="blog-list">
-            <Container fluid>
-                <Row>
-                    <div className='blogs'>
-                        <h1>Latest Blogs</h1>
-                        <SearchBox placeholder='Search Blogs' handleChange={ this.handleChange}></SearchBox>
-                        <BlogList blogs = {filteredBlogs}></BlogList>
-                    </div>
-                </Row>
-            </Container>
-            </section>
+            <Content>
+                <div className='blog-list'>
+                    <h1>Latest Blogs</h1>
+                    <SearchBox placeholder='Search Blogs' handleChange={ this.handleChange}></SearchBox>
+                    <BlogList blogs = {filteredBlogs}></BlogList>
+                </div>
+            </Content>
           )
     }
 }

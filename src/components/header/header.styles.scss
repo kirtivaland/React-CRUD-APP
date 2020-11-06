@@ -4,12 +4,27 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
-  
-    .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
+    .navbar-brand {
+      display: inline-block;
+      padding-top: .3125rem;
+      padding-bottom: .3125rem;
+      margin-right: 1rem;
+      font-size: 1.25rem;
+      line-height: inherit;
+      white-space: nowrap;
     }
+    .py-3 {
+      padding-top: 1rem;
+    }
+    .navbar-nav {
+      a.nav-link {
+        color: #fff;
+        &:hover {
+          color: #1abc9c;
+        }
+      }
+    }
+    
   
     .options {
       width: 50%;
